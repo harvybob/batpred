@@ -13,7 +13,7 @@ pred_bat:
   timezone: Europe/London
 
   # XXX: This is a configuration template, delete this line once you edit your configuration
-  template: True
+
 
   # Set to auto-match with a GivEnergy serial number, but you can override the serial or the sensor names
   # if it doesn't work or if you have more than one inverter you will need to list both
@@ -123,8 +123,7 @@ pred_bat:
   # Inverter max AC limit (one per inverter). E.g for a 3.6kw inverter set to 3600
   # If you have a second inverter for PV only please add the two values together
   inverter_limit: 
-   - 7500
-   - 7500
+   - 5000
 
   # Export limit is a software limit set on your inverter that prevents exporting above a given level
   # When enabled Predbat will model this limit
